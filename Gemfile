@@ -11,6 +11,12 @@ gem "rails", "3.0.0.beta"
 # Rails has selected sqlite3.
 gem "sqlite3-ruby", :require => "sqlite3"
 
+# Use RSpec for unit testing.
+group :test do
+  gem 'rspec', '>= 2.0.0.a'
+  gem 'rspec-rails', '>= 2.0.0.a'
+end
+
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
