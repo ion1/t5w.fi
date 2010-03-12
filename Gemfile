@@ -17,6 +17,16 @@ group :test do
   gem 'rspec-rails', '>= 2.0.0.a'
 end
 
+# Use Cucumber with Capybara for integration testing.
+group :test do
+  gem 'capybara'
+  # The slimmed down version of test-unit in Ruby 1.9.1 isn't enough for
+  # Cucumber.
+  gem 'test-unit'
+  gem 'cucumber'
+  gem 'cucumber-rails', :git => 'git://github.com/aslakhellesoy/cucumber-rails.git'
+end
+
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
