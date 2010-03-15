@@ -30,6 +30,9 @@ end
 # Use Factory Girl to generate test objects.
 gem 'factory_girl', :group => :test
 
+# Used by features/step_definitions/relative_time_steps.rb.
+gem 'chronic_duration', :group => :test
+
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
