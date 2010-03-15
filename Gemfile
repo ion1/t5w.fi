@@ -27,6 +27,9 @@ group :test do
   gem 'cucumber-rails', :git => 'git://github.com/aslakhellesoy/cucumber-rails.git'
 end
 
+# Use Factory Girl to generate test objects.
+gem 'factory_girl', :group => :test
+
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
