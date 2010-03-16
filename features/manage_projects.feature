@@ -1,4 +1,3 @@
-@wip
 Feature: Manage projects
   In order to manage projects
   As a user
