@@ -6,6 +6,7 @@
     <th>What</th>
     <th>When</th>
     <th>Why</th>
+    <th>Created on</th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,6 +18,7 @@
     <td><%= project.what %></td>
     <td><%= project.when %></td>
     <td><%= project.why %></td>
+    <td><%= timestamp project.created_at, '%F' %></td>
     <td><%= link_to 'Show', project %></td>
     <td><%= link_to 'Edit', edit_project_path(project) %></td>
     <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
